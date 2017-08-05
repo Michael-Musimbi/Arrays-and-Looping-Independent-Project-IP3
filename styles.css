@@ -18,3 +18,13 @@ body{
   height: 40px;
   width: 100%;
 }
+
+.col-lg-4{
+  height: 600px;
+  width: 30%;
+}
+
+.col-lg-8{
+  height: 600px;
+  width:70%;
+}

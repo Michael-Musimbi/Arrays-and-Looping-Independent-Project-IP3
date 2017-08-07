@@ -38,10 +38,11 @@ function showAndClearField(frm){
                 result = i;
               }
 
-            // print result
-            document.body.innerHTML += result + '<br>';
-            }
-            //  alert("Result: " + result)
-            }
-            frm.firstName.value = ""
-            }
+              // print result
+
+             document.getElementById("show-result").innerHTML += result +'<br>';
+              }
+              //  alert("Result: " + result)
+              }
+              frm.firstName.value = ""
+              }
